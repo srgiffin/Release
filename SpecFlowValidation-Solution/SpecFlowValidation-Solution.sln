@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeclFlowUnitTest", "SpeclFlowUnitTest\SpeclFlowUnitTest.csproj", "{8D915E52-5450-4950-8F2D-60FBD40FC338}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest.SPTest", "SpeclFlowUnitTest\UnitTest.SPTest.csproj", "{8D915E52-5450-4950-8F2D-60FBD40FC338}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{9EA921C5-8EF1-4CAB-A5F9-BC6806771C11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest.MS.Test", "UnitTest.MS.Test\UnitTest.MS.Test.csproj", "{E32EFD06-714C-41E0-B053-7262929A45A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{9EA921C5-8EF1-4CAB-A5F9-BC6806771C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EA921C5-8EF1-4CAB-A5F9-BC6806771C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EA921C5-8EF1-4CAB-A5F9-BC6806771C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E32EFD06-714C-41E0-B053-7262929A45A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E32EFD06-714C-41E0-B053-7262929A45A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E32EFD06-714C-41E0-B053-7262929A45A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E32EFD06-714C-41E0-B053-7262929A45A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,15 +35,18 @@ Global
 		SolutionGuid = {47836E74-0A94-48A5-97CA-5F1869D79A9E}
 	EndGlobalSection
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
+		SccNumberOfProjects = 4
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = http://192.168.110.195:8080/tfs/democollection
 		SccLocalPath0 = .
-		SccProjectUniqueName1 = SpeclFlowUnitTest\\SpeclFlowUnitTest.csproj
-		SccProjectName1 = SpeclFlowUnitTest
-		SccLocalPath1 = SpeclFlowUnitTest
-		SccProjectUniqueName2 = Example\\Example.csproj
-		SccProjectName2 = Example
-		SccLocalPath2 = Example
+		SccProjectUniqueName1 = Example\\Example.csproj
+		SccProjectName1 = Example
+		SccLocalPath1 = Example
+		SccProjectUniqueName2 = SpeclFlowUnitTest\\UnitTest.SPTest.csproj
+		SccProjectName2 = SpeclFlowUnitTest
+		SccLocalPath2 = SpeclFlowUnitTest
+		SccProjectUniqueName3 = UnitTest.MS.Test\\UnitTest.MS.Test.csproj
+		SccProjectName3 = UnitTest.MS.Test
+		SccLocalPath3 = UnitTest.MS.Test
 	EndGlobalSection
 EndGlobal

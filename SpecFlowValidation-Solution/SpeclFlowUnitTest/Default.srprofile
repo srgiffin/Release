@@ -7,7 +7,7 @@
     <Server serverUrl="http://specrunserver:6365" publishResults="true" />
   -->
   <TestAssemblyPaths>
-    <TestAssemblyPath>SpeclFlowUnitTest.dll</TestAssemblyPath>
+    <TestAssemblyPath>UnitTest.SPTest.dll</TestAssemblyPath>
   </TestAssemblyPaths>
   <DeploymentTransformation>
     <Steps>

@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpeclFlowUnitTest
+namespace UnitTest.SPTest
 {
     using TechTalk.SpecFlow;
     
